@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, blockquote {
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.logo {
+    font-size: 16px;
+    padding: .8em;
+    color: black;
+    margin-top: 0em;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+
+.server {
+    width: 70%;
+}
+
+.university {
+    width: 80%;
+    padding-top: 2em;
+}
+
+.footer-container {
+    width: 100%;
+    background: #3D444A;
+    color: #fff;
+    padding: 3em 0;
+}
+
+nav ul {
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36,41,44);
+    height: 100%;
+    z-index: 7;
+    padding-top: 3em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background-color: rgb(49, 55, 59);
+}
+
+nav ul li a:hover {
+    background-color: rgb(65, 73, 78);
+}
+
+.exit-btn {
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+}
+
+.exit-btn img {
+    width: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 650px)  {
+
+    .server {
+        width: 50%;
+    }
+
+    .university {
+        width: 60%;
+    }
+
+    nav ul {
+        width: 40%;
+    }
+
+    .bio {
+        font-size: 16px;
+    }
+
+    .descrip {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px)  {
+
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .show-desktop {
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    nav ul {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        color: black;
+        background-color: inherit;
+        text-align: left;
+    }
+
+    nav ul li a:hover {
+        background-color: inherit;
+    }
+    
+    .images {
+        display: flex;
+    }
+
+    .university {
+        height: 50%;
+        width: 50%;
+        padding-top: 13%;
+        padding-left: 3.5em;
+    }
+
+    .server {
+        width: 40%;
+        float: left;
+    }
+
+    .footer-container {
+        padding: 1em;
+    }
+
+    .bio {
+        font-size: 20px;
+    }
+
+    .descrip {
+        font-size: 20px;
+    }
+
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    padding: 40px 0;
+}
+
+.link {
+    width: 30px;
+    float: left;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(212, 212, 212);
+    padding: 20px 40px;
+    outline: none;
+    color: #111;
+    transition: 0.5s;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form-text:hover {
+    box-shadow: 0 0 10px 4px #111;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 160px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #3D444A;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: #2980b9;
+}
+
+.projects {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.border {
+    width: 150px;
+    height: 5px;
+    margin: 20px auto;
+    background: black;
+}
